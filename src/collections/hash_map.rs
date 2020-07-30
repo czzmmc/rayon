@@ -2,6 +2,7 @@
 //! (`HashMap<K, V>`). You will rarely need to interact with it directly
 //! unless you have need to name one of the iterator types.
 
+use std::prelude::v1::*;
 use std::collections::HashMap;
 use std::hash::{BuildHasher, Hash};
 

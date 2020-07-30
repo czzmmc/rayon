@@ -5,6 +5,7 @@
 // try to drive the "collect consumer" incorrectly. These should
 // result in panics.
 
+use std::prelude::v1::*;
 use super::Collect;
 use crate::iter::plumbing::*;
 use rayon_core::join;

@@ -4,6 +4,7 @@
 //! The only difference from the original is that the sequential `mergesort` returns
 //! `MergesortResult` and leaves descending arrays intact.
 
+use std::prelude::v1::*;
 use crate::iter::*;
 use crate::slice::ParallelSliceMut;
 use std::mem;

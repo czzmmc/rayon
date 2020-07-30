@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use super::plumbing::*;
 
 pub(super) struct NoopConsumer;

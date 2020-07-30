@@ -17,6 +17,9 @@
 ///     impl<T: Ord + Send, U: Send>
 /// }
 /// ```
+
+use std::prelude::v1::*;
+
 macro_rules! delegate_iterator {
     ($iter:ty => $item:ty ,
      impl $( $args:tt )*

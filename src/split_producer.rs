@@ -2,6 +2,7 @@
 //!
 //! This module is private, so these items are effectively `pub(super)`
 
+use std::prelude::v1::*;
 use crate::iter::plumbing::{Folder, UnindexedProducer};
 
 /// Common producer for splitting on a predicate.

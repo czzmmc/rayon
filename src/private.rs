@@ -5,6 +5,8 @@
 
 /// If this type is pub but not publicly reachable, third parties
 /// can't name it and can't implement traits using it.
+use std::prelude::v1::*;
+
 #[allow(missing_debug_implementations)]
 pub struct PrivateMarker;
 

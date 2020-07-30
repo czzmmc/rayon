@@ -4,6 +4,7 @@
 //!
 //! [r]: https://github.com/rayon-rs/rayon/blob/master/src/iter/plumbing/README.md
 
+use std::prelude::v1::*;
 use crate::join_context;
 
 use super::IndexedParallelIterator;

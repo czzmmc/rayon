@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use super::{IndexedParallelIterator, IntoParallelIterator, ParallelExtend, ParallelIterator};
 use std::slice;
 

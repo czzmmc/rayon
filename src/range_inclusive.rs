@@ -16,6 +16,7 @@
 //!
 //! [std::range]: https://doc.rust-lang.org/core/ops/struct.RangeInclusive.html
 
+use std::prelude::v1::*;
 use crate::iter::plumbing::*;
 use crate::iter::*;
 use std::char;

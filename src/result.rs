@@ -5,6 +5,7 @@
 //!
 //! [std::result]: https://doc.rust-lang.org/stable/std/result/
 
+use std::prelude::v1::*;
 use crate::iter::plumbing::*;
 use crate::iter::*;
 use std::sync::Mutex;

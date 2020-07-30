@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use super::noop::*;
 use super::plumbing::*;
 use super::ParallelIterator;

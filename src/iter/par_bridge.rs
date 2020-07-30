@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use crossbeam_deque::{Steal, Stealer, Worker};
 
 use std::sync::atomic::{AtomicBool, AtomicUsize, Ordering};

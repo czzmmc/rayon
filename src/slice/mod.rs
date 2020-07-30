@@ -10,6 +10,7 @@ mod quicksort;
 
 mod test;
 
+use std::prelude::v1::*;
 use self::mergesort::par_mergesort;
 use self::quicksort::par_quicksort;
 use crate::iter::plumbing::*;

@@ -13,6 +13,7 @@
 //!
 //! [std::str]: https://doc.rust-lang.org/stable/std/str/
 
+use std::prelude::v1::*;
 use crate::iter::plumbing::*;
 use crate::iter::*;
 use crate::split_producer::*;

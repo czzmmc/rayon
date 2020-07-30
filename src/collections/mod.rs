@@ -7,6 +7,9 @@
 
 /// Convert an iterable collection into a parallel iterator by first
 /// collecting into a temporary `Vec`, then iterating that.
+
+use std::prelude::v1::*;
+
 macro_rules! into_par_vec {
     ($t:ty => $iter:ident<$($i:tt),*>, impl $($args:tt)*) => {
         impl $($args)* IntoParallelIterator for $t {

@@ -1,5 +1,6 @@
 #![cfg(test)]
 
+use std::prelude::v1::*;
 use crate::prelude::*;
 use rand::distributions::Uniform;
 use rand::seq::SliceRandom;

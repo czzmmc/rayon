@@ -79,6 +79,7 @@
 //! because `ParallelIterator` is **not object-safe**.
 //! (This keeps the implementation simpler and allows extra optimizations.)
 
+use std::prelude::v1::*;
 use self::plumbing::*;
 use self::private::Try;
 pub use either::Either;

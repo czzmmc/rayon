@@ -5,6 +5,7 @@
 //!
 //! [std::vec]: https://doc.rust-lang.org/stable/std/vec/
 
+use std::prelude::v1::*;
 use crate::iter::plumbing::*;
 use crate::iter::*;
 
